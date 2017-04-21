@@ -3,6 +3,7 @@ ubuntu1604
 repo init -u https://github.com/WalkerWaqi/android.git -b s905_6.0.1_master
 repo start s905_6.0.1_master --all
 
+
 export ARCH=arm64
 export CROSS_COMPILE=aarch64-linux-gnu-
 export PATH=/opt/gcc-linaro-aarch64-linux-gnu-4.9-2014.09_linux/bin:$PATH
