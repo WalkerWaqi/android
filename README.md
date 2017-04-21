@@ -2,6 +2,8 @@ ubuntu1604
 
 repo init -u https://github.com/WalkerWaqi/android.git -b s905_6.0.1_master
 
+repo sync
+
 repo start s905_6.0.1_master --all
 
 
